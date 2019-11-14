@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulario de cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="_css/formulario.css">
+	<style type="text/css">
+
+		body{background: #03fc88;}
+		
+		h1{text-align: center;}
+		footer { text-align: center; }
+		form{ color: black; font-size: 24pt; }
+		input{ background: #03fc88; height: 90px; }
+
+	</style>
+	
+
+</head>
+<body>
+	<h1>PREENCHA SEUS DADOS DE CADASTRO</h1>
+ <form>
+ 	<fieldset>
+	<legend><h3>DADOS PESSOAIS</h3></legend>
+ <p>Nome: <input type="name"  name="tName" id="cName" placeholder="NOME COMPLETO" size="30"></p><br>
+ <p>CPF: <input type="" name="" id="" size="14" placeholder="000.000.000-00"></p><br>
+ <p>Data de Nascimento: <input type="date" name="tDate" id="cDate" ></p><br>
+	</fieldset>
+  	<fieldset>	
+<legend><h3>DADOS DE LOGIN</h3></legend>
+ <p>E-mail: <input type="email" name="tEmail" id="cEmail" max="30" min="10" placeholder="EXEMPLO@EMAIL.COM"></p><br>
+ <p> Repetir e-mail: <input type="email" name="tEmail" id="cEmail" max="30" min="10" placeholder="EXEMPLO@EMAIL.COM"></p><br>
+<p>Senha: <input type="password" name="" id=""  placeholder="8 DÍGITOS"></p>
+   </fieldset>
+
+	<fieldset>
+<legend><h3>ENDEREÇO</h3></legend>
+ <p>CEP: <input type="zipcode" name="" id="zipcode" size="9" maxlength="9" placeholder="00000-000"></p><br>
+ <p>Logradouro: <input type="adress" name="tAdress" id="cAdress" size="40" placeholder="Av... R..." ></p><br>
+ <p>Numero: <input type="" name=""></p><br>
+ <p>Cidade: <input type="city" name=""></p><br>
+ <p>Estado: <input type="UF" name="" max="10" placeholder="ESTADO"></p><br>
+	</fieldset>
+	<fieldset> 
+<legend><h3>QUAL TIPO DE SERVIÇO VOCÊ FAZ?</h3></legend>
+ <input type="radio" name="tBaba" id="cBaba"><label for="cBaba" >Babá</label><br>
+ <input type="radio" name="tDia" id="cDia"><label for="tDia">Diarista (Faxina)</label><br>
+ <input type="radio" name="TElet" id="cElet"><label for="cElet">Eletricista</label><br>
+ <input type="radio" name="tEstet" id="cEstet"><label for="cEstet">Esteticista<label></label><br>
+ <input type="radio" name="tEnc" id="cEnc"><label for="cEstet">Encanador<label></label><br>
+ <input type="radio" name="tFree" id="cFree"><label for="cFree">Freelancer</label><br>
+ <input type="radio" name="tGarc" id="cGarc"><label for="cGarc">Garçom(Barman)</label><br>
+ <input type="radio" name="tMani" id="cMani"><label for="cMani">Manicure/Pedicure</label><br>
+ <input type="radio" name="tMont" id="cMont"><label for="cMont">Montador de móveis</label><br>
+ <input type="radio" name="tMoto" id="cMoto"><label for="cMoto">Motorista</label><br>
+ <input type="radio" name="tPedr" id="cPedr"><label for="cPedr">Pedreiro</label><br>
+ <input type="radio" name="tPint" id="cPint"><label for="cPint">Pintor</label><br>
+ <input type="radio" name="tSeg" id="cSeg"><label for="cSeg">Segurança</label><br>
+ <input type="radio" name="tJard" id="cJard"><label for="cJard">Jardineiro</label><br>
+ <input type="radio" name="TBomb" id="cBomb"><label for="cBomb">Bombeiro civil</label><br>
+ <input type="radio" name="tPort" id="cPort"><label for="cPort">Porteiro</label>
+	</fieldset>
+</form>
+
+
+</body>
+ <footer id="rodape"><B>Todos os Direitos Reservados - 2019 |-ELIELSON BATISTA- </B></br></footer>
+
+</html>
